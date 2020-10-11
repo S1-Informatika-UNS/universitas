@@ -53,7 +53,7 @@ tanda (+) di depan nama atribut / method artinya atribut / method tersebut mengg
     Total gaji staff kontrak = 7157500
 ```
 
-7. Deadline praktikum ini adalah Sabtu, 17 Oktober 2020 pukul 23:00 WIB
+7. Deadline praktikum ini adalah **Sabtu, 17 Oktober 2020 pukul 23:00 WIB**
 
 8. Kriteria penilaian
 * implementasi pembuatan class
