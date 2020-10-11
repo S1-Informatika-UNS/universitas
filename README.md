@@ -20,8 +20,8 @@
 * Total gaji staff kontrak = Gaji tetap + Remunerasi
 
 4. Petunjuk :
-Setiap kotak yang ada pada class diagram mewakili sebuah class. Anda harus membuat class Pegawai, class Dosen, class DosenPns, class DosenNonPns, class DosenKontrak, class Staff, class StaffPns, class StaffNonPns, classStaffKontrak.
-Tanda panah menunjukkan sebuah class merupakan subclass (turunan) dari class induk, contoh : Dosen adalah subclass dari Pegawai, DosenPns adalah subclass dari Dosen, dll.
+Setiap kotak yang ada pada class diagram mewakili sebuah class. Anda harus membuat class **Pegawai**, class **Dosen**, class **DosenPns**, class **DosenNonPns**, class **DosenKontrak**, class **Staff**, class **StaffPns**, class **StaffNonPns**, dan class **StaffKontrak**.
+Tanda _panah_ menunjukkan sebuah class merupakan _subclass (turunan)_ dari class induk, contoh : Dosen adalah subclass dari Pegawai, DosenPns adalah subclass dari Dosen, dll.
 Pada setiap class sudah terdapat atribut dan method yang harus dibuat, contoh
 Class Pegawai memiliki atribut private gajiTetap dengan tipe data int.
 Class Pegawai memiliki method public getGajiTetap() dengan return value int
@@ -42,3 +42,23 @@ tanda (+) di depan nama atribut / method artinya atribut / method tersebut mengg
 | 7   | gajiSks DosenKontrak   |   6750000   |
 | 8   | remunerasi StaffPns   |   1995000   |
 | 9   | remunerasi StaffKontrak   |   1300000   |
+
+6. Contoh output program yang diminta
+```
+    Total gaji dosen PNS = 9895500
+    Total gaji dosen Non-PNS = 6907500
+    Total gaji dosen kontrak = 8250000
+    Total gaji staff PNS = 9602500
+    Total gaji staff Non-PNS = 7607500
+    Total gaji staff kontrak = 7157500
+```
+
+7. Deadline praktikum ini adalah Sabtu, 17 Oktober 2020 pukul 23:00 WIB
+
+8. Kriteria penilaian
+* implementasi pembuatan class
+* implementasi access modifier pada variabel / method
+* implementasi pewarisan class
+* implementasi rumus gaji total
+* ada / tidaknya komentar di dalam code sebagai dokumentasi / catatan
+* waktu submit code
