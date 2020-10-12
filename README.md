@@ -21,13 +21,13 @@
 
 4. Petunjuk :
 Setiap kotak yang ada pada class diagram mewakili sebuah class. Anda harus membuat class **Pegawai**, class **Dosen**, class **DosenPns**, class **DosenNonPns**, class **DosenKontrak**, class **Staff**, class **StaffPns**, class **StaffNonPns**, dan class **StaffKontrak**.
-Tanda _panah_ menunjukkan sebuah class merupakan _subclass (turunan)_ dari class induk, contoh : Dosen adalah subclass dari Pegawai, DosenPns adalah subclass dari Dosen, dll.
+Tanda _panah_ menunjukkan sebuah class merupakan _subclass (turunan)_ dari class induk, contoh : **Dosen** adalah subclass dari **Pegawai**, **DosenPns** adalah subclass dari Dosen, dll.
 Pada setiap class sudah terdapat atribut dan method yang harus dibuat, contoh
-Class Pegawai memiliki atribut private gajiTetap dengan tipe data int.
-Class Pegawai memiliki method public getGajiTetap() dengan return value int
-Class Pegawai memiliki method public setGajiTetap(int) dengan parameter sebuah variabel int
-Keterangan : tanda (-) di depan nama atribut / method artinya atribut / method tersebut menggunakan access modifier private
-tanda (+) di depan nama atribut / method artinya atribut / method tersebut menggunakan access modifier public
+Class Pegawai memiliki atribut private **gajiTetap** dengan tipe data int.
+Class Pegawai memiliki method public **getGajiTetap()** dengan return value int
+Class Pegawai memiliki method public **setGajiTetap(int)** dengan parameter sebuah variabel int
+Keterangan : tanda (-) di depan nama atribut / method artinya atribut / method tersebut menggunakan access modifier _private_
+tanda (+) di depan nama atribut / method artinya atribut / method tersebut menggunakan access modifier _public_
 
 5. Tugas kalian adalah membuat program yang mengimplementasikan struktur inheritance seperti class diagram universitas di atas, adapun keterangan nominal gaji setiap pegawai adalah seperti tabel di bawah ini.
 
